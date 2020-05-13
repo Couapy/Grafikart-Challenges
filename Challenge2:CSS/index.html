@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge Grafikart</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <form method="POST">
+            <h2>Modifier mon profil</h2>
+
+            <div class="row">
+                <div class="col col-8 md-col-12">
+
+                    <div class="row">
+                        <div class="col col-6 sm-col-12">
+                        <div class="form-group">
+                                <label for="name">Nom</label>
+                                <input type="text" name="name" id="name" />
+                            </div>
+                        </div>
+                        <div class="col col-6 sm-col-12">
+                            <div class="form-group">
+                                <label for="firstname">Prénom</label>
+                                <input type="text" name="firstname" id="firstname" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-6 sm-col-12">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" placeholder="monemail@demo.fr" />
+                            </div>
+                        </div>
+                        <div class="col col-6 sm-col-12">
+                            <div class="form-group">
+                                <label for="phonenumber">Téléphone (mobile)</label>
+                                <input type="tel" name="phonenumber" id="phonenumber" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-4 md-col-12 sm-col-12">
+                    <div class="form-group form-bio">
+                        <label for="bio">Bio</label>
+                        <textarea name="bio" id="bio"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col col-4 md-col-6 sm-col-12">
+                    <div class="form-group">
+                        <label for="adress">Adresse</label>
+                        <input type="text" name="adress" id="adress" />
+                    </div>
+                </div>
+                <div class="col col-4 md-col-6 sm-col-12">
+                    <div class="form-group">
+                        <label for="town">Ville</label>
+                        <input type="text" name="town" id="town" />
+                    </div>
+                </div>
+                <div class="col col-4 md-col-6 sm-col-12">
+                    <div class="form-group">
+                        <label for="zipcode">Code postal</label>
+                        <input type="text" name="zipcode" id="zipcode" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col col-12">
+                    <div class="form-group">
+                        <div class="d-inline pr-2">
+                            <input type="checkbox" name="newsletter" id="newsletter" checked/>
+                            <label for="newsletter">Je souhaite recevoir la newsletter</label>
+                        </div>
+                        <div class="d-inline pr-2">
+                            <input type="checkbox" name="newsletters-partners" id="newsletters-partners" />
+                            <label for="newsletters-partners">Je souhaite recevoir la newsletter des partenaires</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col col-12">
+                    <div class="text-right">
+                        <input type="submit" value="Enregistrer mes modifications" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
